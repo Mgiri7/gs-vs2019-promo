@@ -32,7 +32,7 @@ namespace gs_vs2019_promo
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("<h1>Hello World!</h1>");
                 });
             });
         }
